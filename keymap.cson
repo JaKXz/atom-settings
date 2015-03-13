@@ -12,7 +12,9 @@
 # '.editor':
 #   'enter': 'editor:newline'
 #
-# '.workspace':
+'.workspace':
+  'alt-a': 'pane:split-left'
+  'alt-s': 'pane:split-down'
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
