@@ -3,24 +3,28 @@
     showIndentGuide: true
     preferredLineLength: 130
     softWrapAtPreferredLineLength: true
-    invisibles: {}
+    invisibles:
+      {}
+    fontFamily: "Consolas"
     fontSize: 17
   core:
     disabledPackages: [
       "welcome"
       "terminal-panel"
       "build"
-      "jsformat"
-    ]
-    themes: [
-      "one-dark-ui"
-      "fizzy"
+      "term2"
+      "auto-indent"
+      "ask-stack"
     ]
     projectHome: "~/git"
+    themes: [
+      "one-light-ui"
+      "atom-light-syntax"
+    ]
   "exception-reporting":
     userId: "65a5e0e4-e096-37b9-e66e-92776a343952"
   "release-notes":
-    viewedVersion: "0.94.0"
+    viewedVersion: "0.200.0"
   welcome:
     showOnStartup: false
   metrics:
@@ -36,40 +40,53 @@
   jsformat:
     jslint_happy: true
     keep_function_indentation: true
-  linter: {}
-  build: {}
-  "autocomplete-plus": {}
+  linter:
+    {}
+  build:
+    {}
+  "autocomplete-plus":
+    {}
   "file-icons":
     onChanges: true
     forceShow: true
-  minimap: {}
-".git-rebase.text":
-  editor:
-    preferredLineLength: 130
-".git-config.source":
-  editor:
-    preferredLineLength: 130
-".git-commit.text":
-  editor:
-    preferredLineLength: 130
-".ini.source":
-  editor:
-    preferredLineLength: 140
-".jade.source":
-  editor:
-    preferredLineLength: 140
-".pyjade.source":
-  editor:
-    preferredLineLength: 140
-".source.stylus":
-  editor:
-    preferredLineLength: 140
-".cs.source":
+  minimap:
+    {}
+  "isotope-light-ui":
+    {}
+  "spell-check":
+    {}
+  "tree-view":
+    hideIgnoredNames: true
+".nant-build.source":
   editor:
     preferredLineLength: 140
 ".csx.source":
   editor:
     preferredLineLength: 140
-".nant-build.source":
+".cs.source":
   editor:
     preferredLineLength: 140
+".dockerfile.source":
+  editor:
+    preferredLineLength: 130
+".source.stylus":
+  editor:
+    preferredLineLength: 140
+".pyjade.source":
+  editor:
+    preferredLineLength: 140
+".jade.source":
+  editor:
+    preferredLineLength: 140
+".ini.source":
+  editor:
+    preferredLineLength: 140
+".git-commit.text":
+  editor:
+    preferredLineLength: 130
+".git-config.source":
+  editor:
+    preferredLineLength: 130
+".git-rebase.text":
+  editor:
+    preferredLineLength: 130
