@@ -6,7 +6,6 @@
 #
 # You can create a new keybinding in this file by typing "key" and then hitting
 # tab.
-
-'atom-workspace':
+'atom-text-editor':
   'alt-a': 'pane:split-left'
   'alt-s': 'pane:split-down'
